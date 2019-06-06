@@ -178,6 +178,11 @@ header {
   padding: 30px 100px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+}
 header nav a {
   padding-right: 30px;
   text-decoration: none;

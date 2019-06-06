@@ -8,6 +8,10 @@ header {
   padding: 30px 100px;
   border-bottom: 2px dashed @navigation-border;
 
+  @media @mobile {
+    flex-direction: column;
+  }
+
   nav a {
     padding-right: 30px;
     text-decoration: none;
