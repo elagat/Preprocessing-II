@@ -242,6 +242,15 @@ header nav a {
   display: flex;
   justify-content: space-between;
 }
+.home .content-pick .btn {
+  background-color: #17A2B8;
+  border-radius: 11px;
+  text-align: center;
+  height: 35px;
+  width: 130px;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
