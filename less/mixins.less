@@ -1,1 +1,16 @@
-// Mixins in here
+.button () {
+  background-color: @button-bg;
+  border-radius: 12px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 42px;
+  width: 182px;
+  color: @main-bg;
+  font-size: 1.9rem;
+
+  @media @mobile {
+    width: 75vw;
+    margin: auto;
+  }
+}
